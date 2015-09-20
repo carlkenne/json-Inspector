@@ -1,0 +1,22 @@
+.has-content + li{
+    display: none;
+}
+
+.expanded + li{
+    display: block;
+}
+
+.has-content{
+    cursor: pointer;
+}
+
+.has-content:before{
+    content: "+ ";
+}
+.expanded:before{
+    content: "- ";
+}
+
+li{
+    list-style: none;
+}
